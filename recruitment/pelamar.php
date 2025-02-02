@@ -32,13 +32,7 @@ $pelamar = getData('pelamar');
                 <label for="id_lowongan" class="form-label">ID Lowongan</label>
                 <input type="text" class="form-control" id="id_lowongan" name="id_lowongan" required>
             </div>
-            <div class="mb-3">
-                <label for="status_pel" class="form-label">Status Pelamar</label>
-                <select class="form-control" id="status_pel" name="status_pel" required>
-                    <option value="Diterima">Diterima</option>
-                    <option value="Ditolak">Ditolak</option>
-                </select>
-            </div>
+            
             <div class="mb-3">
                 <label for="jabatan_dipilih" class="form-label">Jabatan Dipilih</label>
                 <input type="text" class="form-control" id="jabatan_dipilih" name="jabatan_dipilih" required>

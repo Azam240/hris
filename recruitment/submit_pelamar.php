@@ -10,11 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nama_pel = $_POST['nama_pel'];
     $email_pel = $_POST['email_pel'];
     $id_lowongan = $_POST['id_lowongan'];
-    $status_pel = $_POST['status_pel'];
+   
     $jabatan_dipilih = $_POST['jabatan_dipilih'];
 
     // Insert the applicant data into the database
-    $query = "INSERT INTO pelamar (id_pelamar, nama_pel, email_pel, id_lowongan, status_pel, jabatan_dipilih) VALUES ('$id_pelamar', '$nama_pel', '$email_pel', '$id_lowongan', '$status_pel', '$jabatan_dipilih')";
+    $query = "INSERT INTO pelamar (id_pelamar, nama_pel, email_pel, id_lowongan, jabatan_dipilih) VALUES ('$id_pelamar', '$nama_pel', '$email_pel', '$id_lowongan', '$jabatan_dipilih')";
     if ($conn->query($query) === TRUE) {
         echo "Data pelamar berhasil disimpan.";
     } else {

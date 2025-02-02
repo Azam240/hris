@@ -39,7 +39,6 @@
             <li class="nav-item">
             <a class="nav-link collapsed" href="<?php echo BASE_URL; ?>/hris/pelatihan/index.php">
                 <i class="bi bi-box-seam-fill"></i><span>Pelatihan</span>
-            </a>
         </li><!-- End Recruitment Nav -->
 
         <a class="nav-link collapsed" href="<?php echo BASE_URL; ?>/hris/recruitment/welcome.php">
@@ -62,7 +61,11 @@
         </a>   
     </li><!-- End Recruitment Nav -->
 
-      
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="<?php echo BASE_URL; ?>/hris/kontrak_pegawai/inde.php">
+                <i class="bi bi-journal-text"></i><span>pelatihan</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+        </li><!-- End Forms Nav -->
 
         <li class="nav-item">
             <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
