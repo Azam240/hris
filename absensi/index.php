@@ -14,7 +14,8 @@ function getData($table) {
 // Mendapatkan data dari tabel
 $absensi = getData('absensi');
 $jadwal_kehadiran = getData('jadwal_kehadiran');
-$keterlambatan_dan_ketidakhadiran = getData('keterlambatan_dan_ketidakhadiran');
+$keterlambatan = getData('keterlambatan'); // Ambil data dari tabel keterlambatan
+$ketidakhadiran = getData('ketidakhadiran'); // Ambil data dari tabel ketidakhadiran
 
 ?>
 
@@ -106,7 +107,7 @@ $keterlambatan_dan_ketidakhadiran = getData('keterlambatan_dan_ketidakhadiran');
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($keterlambatan_dan_ketidakhadiran as $row): ?>
+                        <?php foreach ($keterlambatan as $row): ?>
                             <tr>
                                 <td><?= $row['Nama_Pegawai'] ?></td>
                                 <td><?= $row['Tanggal'] ?></td>
@@ -133,7 +134,7 @@ $keterlambatan_dan_ketidakhadiran = getData('keterlambatan_dan_ketidakhadiran');
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($keterlambatan_dan_ketidakhadiran as $row): ?>
+                        <?php foreach ($ketidakhadiran as $row): ?>
                             <tr>
                                 <td><?= $row['Nama_Pegawai'] ?></td>
                                 <td><?= $row['Tanggal'] ?></td>
@@ -150,6 +151,7 @@ $keterlambatan_dan_ketidakhadiran = getData('keterlambatan_dan_ketidakhadiran');
         </div>
     </div>
 </main><!-- End #main -->
+
 <style>
     .tab-pane {
         transition: all 0.5s ease;
