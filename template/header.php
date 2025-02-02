@@ -29,6 +29,11 @@ include 'bootstrap.php';
     <link href="<?php echo BASE_URL; ?>/hris/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
     <link href="<?php echo BASE_URL; ?>/hris/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="<?php echo BASE_URL; ?>/hris/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Include Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 
     <!-- Template Main CSS File -->
     <link href="<?php echo BASE_URL; ?>/hris/assets/css/style.css" rel="stylesheet">
@@ -272,3 +277,9 @@ include 'bootstrap.php';
         </nav><!-- End Icons Navigation -->
 
     </header><!-- End Header -->
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Include Bootstrap JS -->
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
